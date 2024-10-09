@@ -4,7 +4,7 @@ import io
 import fitz  # PyMuPDF
 
 # Title of the Streamlit app
-st.title("Multiple PDF Upload, Merge, and Display")
+st.title("PDF Merge")
 
 # File uploader for multiple PDFs
 uploaded_files = st.file_uploader("Choose PDF files", type="pdf", accept_multiple_files=True)
